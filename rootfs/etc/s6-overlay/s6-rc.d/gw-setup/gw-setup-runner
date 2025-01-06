@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/app/gwsetup -gd ${GENEWEB_HOME}/gw/ -bd ${GENEWEB_HOME}/bases/ -lang ${GENEWEB_LANG} -only ${GENEWEB_DB_PATH}/only.txt

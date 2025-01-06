@@ -1,0 +1,3 @@
+#!/command/execlineb -P
+with-contenv
+sh -c "/app/gwd -bd ${GENEWEB_DATA_PATH} -hd ${GENEWEB_HOME}/gw/ -log ${GENEWEB_HOME}/bases/gwd.log"
